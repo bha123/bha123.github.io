@@ -1,0 +1,164 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(16, 16, 16);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header {
+    background-color: #0074d9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0074d9;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+main h2 {
+    color: #0074d9;
+}
+
+main ul {
+    padding: 0;
+    list-style: none;
+}
+
+main li {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.top-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.top-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.top-link:hover {
+    background-color: #0056b3;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-entry {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.timeline-logo {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.timeline-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.timeline-content {
+    flex: 1;
+}
+
+.timeline-content h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.timeline-content p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.top-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-link {
+    margin: 0 10px;
+}
+
+.top-link img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
